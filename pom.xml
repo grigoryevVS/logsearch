@@ -35,23 +35,4 @@
         </plugins>
     </build>
 
-    <proxies>
-        <proxy>
-            <id>example-proxy</id>
-            <active>true</active>
-            <protocol>http</protocol>
-            <host>proxy.t-systems.ru</host>
-            <port>3128</port>
-            <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
-        </proxy>
-        <proxy>
-            <id>example-proxy2</id>
-            <active>true</active>
-            <protocol>https</protocol>
-            <host>proxy.t-systems.ru</host>
-            <port>3128</port>
-            <nonProxyHosts>www.google.com|*.example.com</nonProxyHosts>
-        </proxy>
-    </proxies>
-
 </project>
